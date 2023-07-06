@@ -21,6 +21,7 @@ int main()
         );
     }
 
+    std::cout << " the result : " << std::endl;
     for(auto && result: results)
         std::cout << result.get() << ' ';
     std::cout << std::endl;
